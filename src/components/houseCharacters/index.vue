@@ -1,6 +1,5 @@
 <template>
-    <div>
-        <!-- <div>{{ housesDetails }} </div> -->
+    <div style="margin: 10vh 10vw">
         <el-tabs 
             v-model="activeHouseId"
             @tab-click="onTabClick">
@@ -57,6 +56,7 @@ export default {
             immediate: false,
             handler(newVal) {
                 if (newVal && newVal != 0) {
+                    // fetching users only when needed and storing the result for future
                     if (this.houseIdCharacterDetails[newVal] === undefined) {
                         this.fetchHouseCharacters();
                     }

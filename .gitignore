@@ -12,9 +12,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# API keys
-constants.js
-
 # Editor directories and files
 .idea
 .vscode
@@ -23,3 +20,4 @@ constants.js
 *.njsproj
 *.sln
 *.sw?
+src/constants.js

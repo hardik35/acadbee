@@ -19,6 +19,8 @@ yarn build
 ```
 yarn lint
 ```
+### API KEY
+Add your API key in constants.js
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
